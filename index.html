@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sweet Café - Fresh coffee, delicious cakes and tasty food.">
+    <title>Sweet Café</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">☕ Sweet Café</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="darkModeBtn" class="dark-button">
+                🌙 Dark Mode
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Home -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <p class="small-title">WELCOME TO</p>
+
+                <h1>Sweet Café</h1>
+
+                <p class="hero-text">
+                    Fresh coffee, delicious cakes and happy moments
+                    every day.
+                </p>
+
+                <a href="#menu" class="main-button">
+                    View Our Menu
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Menu -->
+        <section id="menu" class="section">
+
+            <div class="section-title">
+                <p>WHAT WE OFFER</p>
+                <h2>Our Menu</h2>
+            </div>
+
+
+            <!-- Menu filter -->
+            <div class="filter-buttons">
+
+                <button class="filter-button active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-button" data-filter="coffee">
+                    Coffee
+                </button>
+
+                <button class="filter-button" data-filter="food">
+                    Food
+                </button>
+
+            </div>
+
+
+            <!-- Menu cards -->
+            <div class="menu-grid">
+
+                <!-- Coffee -->
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-icon">☕</div>
+
+                    <h3>Espresso</h3>
+
+                    <p>
+                        Strong and rich coffee with a smooth taste.
+                    </p>
+
+                    <span class="price">$3.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-icon">☕</div>
+
+                    <h3>Cappuccino</h3>
+
+                    <p>
+                        Fresh espresso with warm milk and soft foam.
+                    </p>
+
+                    <span class="price">$4.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-icon">🥛</div>
+
+                    <h3>Latte</h3>
+
+                    <p>
+                        Smooth coffee with creamy steamed milk.
+                    </p>
+
+                    <span class="price">$4.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="coffee">
+
+                    <div class="menu-icon">🧊</div>
+
+                    <h3>Iced Coffee</h3>
+
+                    <p>
+                        Refreshing cold coffee for a hot day.
+                    </p>
+
+                    <span class="price">$3.00</span>
+
+                </article>
+
+
+                <!-- Food -->
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-icon">🍰</div>
+
+                    <h3>Chocolate Cake</h3>
+
+                    <p>
+                        Soft chocolate cake with a sweet creamy layer.
+                    </p>
+
+                    <span class="price">$5.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-icon">🍰</div>
+
+                    <h3>Cheesecake</h3>
+
+                    <p>
+                        Creamy cheesecake with a delicious sweet taste.
+                    </p>
+
+                    <span class="price">$5.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-icon">🥪</div>
+
+                    <h3>Sandwich</h3>
+
+                    <p>
+                        Fresh bread with vegetables and tasty filling.
+                    </p>
+
+                    <span class="price">$5.00</span>
+
+                </article>
+
+
+                <article class="menu-card" data-category="food">
+
+                    <div class="menu-icon">🥐</div>
+
+                    <h3>Croissant</h3>
+
+                    <p>
+                        Crispy outside and soft inside.
+                    </p>
+
+                    <span class="price">$4.00</span>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+        <section id="about" class="about-section">
+
+            <div class="about-content">
+
+                <div class="about-icon">
+                    ☕
+                </div>
+
+                <div>
+
+                    <p class="section-label">ABOUT US</p>
+
+                    <h2>Made With Love</h2>
+
+                    <p>
+                        Sweet Café is a small and friendly café
+                        created for people who love coffee and
+                        delicious food.
+                    </p>
+
+                    <p>
+                        We serve fresh coffee, cakes and simple
+                        meals in a comfortable space. Our goal is
+                        to make every visit a happy experience.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+
+            <div class="section-title">
+
+                <p>GET IN TOUCH</p>
+
+                <h2>Contact Us</h2>
+
+            </div>
+
+
+            <div class="contact-container">
+
+                <div class="contact-info">
+
+                    <h3>Visit Sweet Café</h3>
+
+                    <p>
+                        📍 25 Coffee Street, Hanoi
+                    </p>
+
+                    <p>
+                        📞 +84 123 456 789
+                    </p>
+
+                    <p>
+                        ✉️ hello@sweetcafe.com
+                    </p>
+
+                    <p>
+                        🕐 Monday - Sunday: 8:00 AM - 9:00 PM
+                    </p>
+
+                </div>
+
+
+                <form id="contactForm" class="contact-form">
+
+                    <label for="name">Name</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Your name"
+                        required
+                    >
+
+
+                    <label for="email">Email</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Your email"
+                        required
+                    >
+
+
+                    <label for="message">Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your message"
+                        required
+                    ></textarea>
+
+
+                    <button type="submit" class="submit-button">
+                        Send Message
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Back to top -->
+    <button id="topButton" class="top-button" aria-label="Back to top">
+        ↑
+    </button>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            © 2026 Sweet Café. All rights reserved.
+        </p>
+
+        <p>
+            Fresh Coffee • Delicious Food • Happy Moments
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
